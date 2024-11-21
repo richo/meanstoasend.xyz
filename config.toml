@@ -2,10 +2,17 @@
 base_url = "https://meanstoasend.xyz"
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
+compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+theme = "clean"
+
+taxonomies = [
+  {name = "categories", rss = true, paginate_by=5},
+  {name = "tags", rss = true, paginate_by=5},
+]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -14,10 +21,3 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-
-theme = "zola-clean-blog"
-
-taxonomies = [
-  {name = "categories", rss = true, paginate_by=5},
-  {name = "tags", rss = true, paginate_by=5},
-]
