@@ -16,7 +16,6 @@ taxonomies = [
 
 title = "Means to a Send, LLC"
 description = "App developin' and rally drivin'"
-highlight_code = true
 
 [markdown]
 # Whether to do syntax highlighting
