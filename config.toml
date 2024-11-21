@@ -14,3 +14,10 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+
+theme = "zola-clean-blog"
+
+taxonomies = [
+  {name = "categories", rss = true, paginate_by=5},
+  {name = "tags", rss = true, paginate_by=5},
+]
